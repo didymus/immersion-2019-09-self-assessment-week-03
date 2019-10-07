@@ -1,9 +1,9 @@
-const FishTable = () => (
+const FishTable = (props) => (
   <table>
     <tbody>
-      <FishTableRow />
-      <FishTableRow />
-      <FishTableRow />
+      { props.fishes.map(function(fish, index){
+        return <FishTableRow fish={fish} key={index} />;
+      })}
     </tbody>
   </table>
 );

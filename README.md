@@ -29,7 +29,7 @@ After you complete each prompt, assign a grade to each item in the Grading Outli
 
 - [Complete] angularjs-pond
 - [Complete] backbone-pond
-- [ ] react-pond
+- [Mostly Complete] react-pond
 
 
 ### Grading Scale
